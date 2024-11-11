@@ -23,4 +23,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Seekbar App"
 include(":app")
-include(":seekbarlibrary")
