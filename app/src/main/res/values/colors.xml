@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="present_green">#0D894F</color>
+    <color name="absent_red">#F04438</color>
+    <color name ="leaves_blue">#1FB6FF</color>
+    <color name="latearrival_yellow">#F7A91D</color>
+    <color name="theme_wala_kala">#474749</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_charcoal">#343434</color>
+    <color name="light_cahrcoal">#474749</color>
+
+    <color name="colorPrimary">#6200EE</color> <!-- Purple -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Dark Purple -->
+    <color name="colorAccent">#03DAC5</color> <!-- Teal -->
+
+    <!-- App background colors -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White -->
+    <color name="charcoal">#333333</color> <!-- Dark Gray -->
+
+    <!-- Text colors -->
+    <color name="textColorPrimary">#000000</color> <!-- Black -->
+    <color name="textColorSecondary">#757575</color> <!-- Gray -->
+
+    <!-- Custom colors -->
+    <color name="errorColor">#D32F2F</color> <!-- Red -->
+    <color name="successColor">#388E3C</color> <!-- Green -->
+
+</resources>
