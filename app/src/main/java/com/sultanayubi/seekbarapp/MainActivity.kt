@@ -47,8 +47,8 @@ class MainActivity : AppCompatActivity() {
             customSeekBar.configureSegments(
                 isMultipleCheck = false, // Set whether multiple segments should be checked
                 segmentCheckValue = 1, // Set the segment check value
-                totalEmployee = 100,    // Set the total number of employees
-                presentEmployee = 100,   // Set the number of present employees
+                totalEmployee = 50,    // Set the total number of employees
+                presentEmployee = 50,   // Set the number of present employees
                 absentEmployee = 0,    // Set the number of absent employees
                 leaveEmployee = 0,     // Set the number of employees on leave
                 lateEmployee = 0      // Set the number of late arrivals
@@ -59,9 +59,9 @@ class MainActivity : AppCompatActivity() {
             customSeekBar.configureSegments(
                 isMultipleCheck = false, // Set whether multiple segments should be checked
                 segmentCheckValue = 1, // Set the segment check value
-                totalEmployee = 100,    // Set the total number of employees
+                totalEmployee = 20,    // Set the total number of employees
                 presentEmployee = 0,   // Set the number of present employees
-                absentEmployee = 100,    // Set the number of absent employees
+                absentEmployee = 20,    // Set the number of absent employees
                 leaveEmployee = 0,     // Set the number of employees on leave
                 lateEmployee = 0      // Set the number of late arrivals
             )
@@ -71,10 +71,10 @@ class MainActivity : AppCompatActivity() {
             customSeekBar.configureSegments(
                 isMultipleCheck = false, // Set whether multiple segments should be checked
                 segmentCheckValue = 1, // Set the segment check value
-                totalEmployee = 100,    // Set the total number of employees
+                totalEmployee = 15,    // Set the total number of employees
                 presentEmployee = 0,   // Set the number of present employees
                 absentEmployee = 0,    // Set the number of absent employees
-                leaveEmployee = 100,     // Set the number of employees on leave
+                leaveEmployee = 15,     // Set the number of employees on leave
                 lateEmployee = 0      // Set the number of late arrivals
             )
         }
@@ -83,11 +83,11 @@ class MainActivity : AppCompatActivity() {
             customSeekBar.configureSegments(
                 isMultipleCheck = false, // Set whether multiple segments should be checked
                 segmentCheckValue = 1, // Set the segment check value
-                totalEmployee = 100,    // Set the total number of employees
+                totalEmployee = 15,    // Set the total number of employees
                 presentEmployee = 0,   // Set the number of present employees
                 absentEmployee = 0,    // Set the number of absent employees
                 leaveEmployee = 0,     // Set the number of employees on leave
-                lateEmployee = 100      // Set the number of late arrivals
+                lateEmployee = 15      // Set the number of late arrivals
             )
         }
 
