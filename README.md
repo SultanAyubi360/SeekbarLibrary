@@ -9,7 +9,7 @@ Custom seek bar/ progress bar with customizable multiple color on background.
 
 ### Step 1
 
-Add this in your root seetings.gradle at the end of repositories
+Add this in your root build.gradle at the end of repositories
 ```
 allprojects {
 		repositories {
@@ -23,12 +23,23 @@ allprojects {
 
 Include the library as a local library project or add the dependency in your build.gradle.
 
+# For groovy DSL
+
 ```
-# For groovy
 dependencies {
-    implementation 'com.github.MohammedAlaaMorsi:RangeSeekBar:1.0.6'
+    implementation 'com.github.SultanAyubi360:SeekbarLibrary:1.2'
 }
 ```
+
+# For Kotlin DSL
+
+
+```
+dependencies {
+    implementation ("com.github.SultanAyubi360:SeekbarLibrary:1.2")
+}
+```
+
 ---
 ### Step 3
 
