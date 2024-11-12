@@ -94,7 +94,37 @@ CustomSeekBarView customSeekBar = binding.seekBar;
 ```
 ---
 
-## :heart: Support My Projects
+### Step 5
+How to use and pass values in CustomSeekBarView.
+
+```
+* Java
+```Java
+customSeekBar.configureSegments(
+        true,     // Set whether multiple segments should be checked
+        10,       // Set the segment check value
+        100,      // Set the total number of employees
+        50,       // Set the number of present employees
+        20,       // Set the number of absent employees
+        15,       // Set the number of employees on leave
+        15        // Set the number of late arrivals
+);
+```
+
+* Kotlin
+```kotlin
+customSeekBar.configureSegments(
+            isMultipleCheck = true, // Set whether multiple segments should be checked
+            segmentCheckValue = 10, // Set the segment check value
+            totalEmployee = 100,    // Set the total number of employees
+            presentEmployee = 50,   // Set the number of present employees
+            absentEmployee = 20,    // Set the number of absent employees
+            leaveEmployee = 15,     // Set the number of employees on leave
+            lateEmployee = 15      // Set the number of late arrivals
+        )
+```
+
+## :heart: Support My Projects 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it. :coffee: :hamburger: :fries: :apple:
 
 * Starring: You may give a star or share the projects you like.
