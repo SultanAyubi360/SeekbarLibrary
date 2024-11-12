@@ -80,7 +80,7 @@ Carview use to make seekbar/progress bar corner round by giving radius.
 
 Reference the View in Kotlin code.
 
-  ## RangeSeekBarView
+  ## CustomSeekBarView
 * Kotlin
 ```kotlin
 val customSeekBar = findViewById<CustomSeekBarView>(R.id.seekBar) //Find View By Id
