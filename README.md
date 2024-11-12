@@ -85,11 +85,6 @@ Reference the View in Kotlin code.
 ```kotlin
 val customSeekBar = findViewById<CustomSeekBarView>(R.id.seekBar) //Find View By Id
 val customSeekBar = binding.seekBar // using binding
-```
-* Java
-```Java
-CustomSeekBarView customSeekBar = findViewById(R.id.seekBar);
-CustomSeekBarView customSeekBar = binding.seekBar;
 
 ```
 ---
@@ -97,20 +92,8 @@ CustomSeekBarView customSeekBar = binding.seekBar;
 ### Step 5
 How to use and pass values in CustomSeekBarView.
 
-* Java
-```Java
-customSeekBar.configureSegments(
-        true,     // Set whether multiple segments should be checked
-        10,       // Set the segment check value
-        100,      // Set the total number of employees
-        50,       // Set the number of present employees
-        20,       // Set the number of absent employees
-        15,       // Set the number of employees on leave
-        15        // Set the number of late arrivals
-);
-```
-
 * Kotlin
+ For showing multiple progess bars.
 ```kotlin
 customSeekBar.configureSegments(
             isMultipleCheck = true, // Set whether multiple segments should be checked
@@ -121,7 +104,32 @@ customSeekBar.configureSegments(
             leaveEmployee = 15,     // Set the number of employees on leave
             lateEmployee = 15      // Set the number of late arrivals
         )
+
+ For showing single progess bar.
+```kotlin
+customSeekBar.configureSegments(
+                isMultipleCheck = false, // Set whether multiple segments should be checked
+                segmentCheckValue = 1, // Set the segment check value
+                totalEmployee = 50,    // Set the total number of employees
+                presentEmployee = 50,   // Set the number of present employees
+                absentEmployee = 0,    // Set the number of absent employees
+                leaveEmployee = 0,     // Set the number of employees on leave
+                lateEmployee = 0      // Set the number of late arrivals
+            )
+
+isMultipleCheck  means just show single progress and make other values 0 to not show.If any progress have zero value it will not show progress bar.
 ```
+---
+
+## OverView:
+* isMultipleCheck: This is use for whether to show multiple progress bar just do true otherwise for single false.
+* segmentCheckValue: If progress has value less then given segment it not show the value on progress so it not cut off.
+* presentEmployee: show present employees using green color.
+* absentEmployee: show absent employees using red color.
+* leaveEmployee: show leave employees using sky bue color.
+* lateEmployee: show late employees using yellow color.
+
+  
 
 ## :heart: Support My Projects 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it. :coffee: :hamburger: :fries: :apple:
