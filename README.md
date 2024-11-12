@@ -43,7 +43,39 @@ dependencies {
 ---
 ### Step 3
 
-Add the following xml to your layout file.
+Add the following xml to your layout file.You can use the custom view in following manner:
+
+#### In XML:
+
+```
+  <androidx.cardview.widget.CardView
+        android:id="@+id/seekCard"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.sultanayubi.seekbarlibrary.CustomSeekBarView
+            android:id="@+id/seekBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:thumb="@null"/>
+    </androidx.cardview.widget.CardView>
+
+
+Carview use to make seekbar/progress bar corner round by giving radius. 
+```
+
 
 ## :heart: Support My Projects
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it. :coffee: :hamburger: :fries: :apple:
