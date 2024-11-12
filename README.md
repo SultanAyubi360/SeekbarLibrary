@@ -1,5 +1,6 @@
 # customSeekBarAndroid
 Custom seek bar/ progress bar with customizable multiple color on background.
+
 [![](https://jitpack.io/v/SultanAyubi360/SeekbarLibrary.svg)](https://jitpack.io/#SultanAyubi360/SeekbarLibrary)
 
 ## :heart: Support My Projects
