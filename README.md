@@ -97,7 +97,6 @@ CustomSeekBarView customSeekBar = binding.seekBar;
 ### Step 5
 How to use and pass values in CustomSeekBarView.
 
-```
 * Java
 ```Java
 customSeekBar.configureSegments(
