@@ -111,8 +111,8 @@ customSeekBar.configureSegments(
             lateEmployee = 15      // Set the number of late arrivals
         )
 
+```
 
-```kotlin
 * For showing single progess bar.
 ```kotlin
 customSeekBar.configureSegments(
@@ -126,7 +126,6 @@ customSeekBar.configureSegments(
             )
 
 isMultipleCheck  means just show single progress and make other values 0 to not show.If any progress have zero value it will not show progress bar.
-```
 ---
 
 ## ✨ Screenshots
