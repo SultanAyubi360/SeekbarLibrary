@@ -1,7 +1,12 @@
 # customSeekBarAndroid
 Custom seek bar/ progress bar with customizable multiple color on background.
 
+<div align="center">
+	
 [![](https://jitpack.io/v/SultanAyubi360/SeekbarLibrary.svg)](https://jitpack.io/#SultanAyubi360/SeekbarLibrary)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)  ![Kotlin](https://img.shields.io/badge/Kotlin-100%25-brightgreen)
+
+</div>
 
 ## Usage
 
@@ -128,6 +133,7 @@ isMultipleCheck  means just show single progress and make other values 0 to not 
 * absentEmployee: show absent employees using red color.
 * leaveEmployee: show leave employees using sky bue color.
 * lateEmployee: show late employees using yellow color.
+
 
   
 
