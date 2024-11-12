@@ -8,6 +8,14 @@ Custom seek bar/ progress bar with customizable multiple color on background.
 
 </div>
 
+## ✨ Live Demo
+
+<kbd>
+
+https://github.com/user-attachments/assets/bb3c671e-d6f9-44f9-a3e3-5eb387235e4a
+
+</kbd>
+
 ## Usage
 
 **For a working implementation of this project see the `app/` folder.**
