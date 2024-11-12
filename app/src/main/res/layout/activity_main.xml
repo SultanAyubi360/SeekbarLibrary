@@ -12,7 +12,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/seekCard"
         android:layout_width="match_parent"
-        android:layout_height="13dp"
+        android:layout_height="14dp"
         android:layout_marginStart="@dimen/_2sdp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="@dimen/_2sdp"
@@ -31,4 +31,79 @@
             android:paddingEnd="0dp"
             android:thumb="@null"/>
     </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAll"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="All"
+        app:backgroundTint="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@id/seekCard"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPresent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Present"
+        android:visibility="visible"
+        app:backgroundTint="@color/present_green"
+        app:layout_constraintTop_toBottomOf="@id/seekCard"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintStart_toEndOf="@id/btnAll">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAbsent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Absent"
+        android:visibility="visible"
+        app:backgroundTint="@color/absent_red"
+        app:layout_constraintTop_toBottomOf="@id/seekCard"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnPresent">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLeave"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Leave"
+        android:visibility="visible"
+        app:backgroundTint="@color/leaves_blue"
+        app:layout_constraintTop_toBottomOf="@id/btnAbsent"
+        android:layout_marginStart="@dimen/_30sdp"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLate"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:text="Late"
+        android:visibility="visible"
+        app:backgroundTint="@color/latearrival_yellow"
+        app:layout_constraintTop_toTopOf="@id/btnLeave"
+        app:layout_constraintBottom_toBottomOf="@id/btnLeave"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/_30sdp"
+        app:layout_constraintStart_toEndOf="@id/btnLeave">
+
+    </com.google.android.material.button.MaterialButton>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
