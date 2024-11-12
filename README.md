@@ -126,15 +126,25 @@ isMultipleCheck  means just show single progress and make other values 0 to not 
 ```
 ---
 
+## ✨ Screenshots
+
+<kbd>
+  <img src="https://i.ibb.co/s51m1nV/screenshot1.png" width=30% height=30%/>
+  <img src="https://i.ibb.co/mFvQv4T/screenshot3.png" width=30% height=30%/>
+  <img src="https://i.ibb.co/gT8BVyq/screenshot4.png" width=30% height=30%/>
+  <img src="https://i.ibb.co/Y7XvTWQ/screenshot5.png" width=30% height=30%/>
+  <img src="https://i.ibb.co/ZfspXPh/screenshot2.png" width=30% height=30%/>
+  
+</kbd>
+
+
 ## OverView:
-* isMultipleCheck: This is use for whether to show multiple progress bar just do true otherwise for single false.
-* segmentCheckValue: If progress has value less then given segment it not show the value on progress so it not cut off.
-* presentEmployee: show present employees using green color.
-* absentEmployee: show absent employees using red color.
-* leaveEmployee: show leave employees using sky bue color.
-* lateEmployee: show late employees using yellow color.
-
-
+* **isMultipleCheck**: This is use for whether to show multiple progress bar just do true otherwise for single false.
+* **segmentCheckValue**: If progress has value less then given segment it not show the value on progress so it not cut off.
+* **presentEmployee**: show present employees using green color.
+* **absentEmployee**: show absent employees using red color.
+* **leaveEmployee**: show leave employees using sky bue color.
+* **lateEmployee**: show late employees using yellow color.
   
 
 ## Find this library useful? :heart:
