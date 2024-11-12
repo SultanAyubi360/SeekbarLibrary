@@ -112,6 +112,7 @@ customSeekBar.configureSegments(
         )
 
 
+```kotlin
 * For showing single progess bar.
 ```kotlin
 customSeekBar.configureSegments(
