@@ -96,8 +96,6 @@ val customSeekBar = binding.seekBar // using binding
 
 ### Step 5
 How to use and pass values in CustomSeekBarView.
-
-* Kotlin
   
 * For showing multiple progess bars.
 ```kotlin
@@ -126,6 +124,7 @@ customSeekBar.configureSegments(
             )
 
 isMultipleCheck  means just show single progress and make other values 0 to not show.If any progress have zero value it will not show progress bar.
+```
 ---
 
 ## ✨ Screenshots
