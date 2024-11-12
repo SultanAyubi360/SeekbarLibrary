@@ -75,7 +75,24 @@ Add the following xml to your layout file.You can use the custom view in followi
 
 Carview use to make seekbar/progress bar corner round by giving radius. 
 ```
+---
+### Step 4
 
+Reference the View in Kotlin code.
+
+  ## RangeSeekBarView
+* Kotlin
+```kotlin
+val customSeekBar = findViewById<CustomSeekBarView>(R.id.seekBar) //Find View By Id
+val customSeekBar = binding.seekBar // using binding
+```
+* Java
+```Java
+CustomSeekBarView customSeekBar = findViewById(R.id.seekBar);
+CustomSeekBarView customSeekBar = binding.seekBar;
+
+```
+---
 
 ## :heart: Support My Projects
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it. :coffee: :hamburger: :fries: :apple:
