@@ -130,11 +130,11 @@ isMultipleCheck  means just show single progress and make other values 0 to not 
 ## ✨ Screenshots
 
 <kbd>
-  <img src="https://i.ibb.co/s51m1nV/screenshot1.png" width=30% height=30%/>
-  <img src="https://i.ibb.co/mFvQv4T/screenshot3.png" width=30% height=30%/>
-  <img src="https://i.ibb.co/gT8BVyq/screenshot4.png" width=30% height=30%/>
-  <img src="https://i.ibb.co/Y7XvTWQ/screenshot5.png" width=30% height=30%/>
-  <img src="https://i.ibb.co/ZfspXPh/screenshot2.png" width=30% height=30%/>
+  <img src="https://i.ibb.co/26GmynP/screenshot1.jpg" width=30% height=30%/>
+  <img src="https://i.ibb.co/6B32g9Z/screenshot2.jpg" width=30% height=30%/>
+  <img src="https://i.ibb.co/s3sNJcP/screenshot3.jpg" width=30% height=30%/>
+  <img src="https://i.ibb.co/pZ7ffmR/screenshot4.jpg" width=30% height=30%/>
+  <img src="https://i.ibb.co/RDSMqw7/screenshot5.jpg" width=30% height=30%/>
 </kbd>
 
 
