@@ -131,10 +131,9 @@ isMultipleCheck  means just show single progress and make other values 0 to not 
 
   
 
-## :heart: Support My Projects 
-However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it. :coffee: :hamburger: :fries: :apple:
+## Find this library useful? :heart:
 
-* Starring: You may give a star or share the projects you like.
+However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it. :coffee: :hamburger: :fries: :apple:
 
 Support it by joining stargazers to this. ⭐
 
