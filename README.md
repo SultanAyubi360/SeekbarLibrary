@@ -98,7 +98,8 @@ val customSeekBar = binding.seekBar // using binding
 How to use and pass values in CustomSeekBarView.
 
 * Kotlin
- For showing multiple progess bars.
+  
+* For showing multiple progess bars.
 ```kotlin
 customSeekBar.configureSegments(
             isMultipleCheck = true, // Set whether multiple segments should be checked
@@ -110,7 +111,8 @@ customSeekBar.configureSegments(
             lateEmployee = 15      // Set the number of late arrivals
         )
 
- For showing single progess bar.
+
+* For showing single progess bar.
 ```kotlin
 customSeekBar.configureSegments(
                 isMultipleCheck = false, // Set whether multiple segments should be checked
