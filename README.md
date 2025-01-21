@@ -153,7 +153,13 @@ isMultipleCheck  means just show single progress and make other values 0 to not 
 * **absentEmployee**: show absent employees using red color.
 * **leaveEmployee**: show leave employees using sky bue color.
 * **lateEmployee**: show late employees using yellow color.
-  
+
+
+## Reporting an issue
+
+If you are going to report an issue, I will greatly appreciate you including some code which I can run to see the issue. By doing so you maximize the chance that I will fix the problem. 
+By the way, before reporting a problem, try replacing DiscreteScrollView with a RecyclerView. If the problem is still present, it's likely somewhere in your code.
+
 
 ## Find this library useful? :heart:
 
