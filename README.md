@@ -34,7 +34,7 @@ allprojects {
 ---
 ### Step 2
 
-Include the library as a local library project or add the dependency in your build.gradle.
+Add the dependency in your build.gradle.
 
 # For groovy DSL
 
