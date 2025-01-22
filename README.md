@@ -32,6 +32,7 @@ allprojects {
 }
 ```
 ---
+
 ### Step 2
 
 Add the dependency in your build.gradle.
@@ -46,14 +47,13 @@ dependencies {
 
 # For Kotlin DSL
 
-
 ```
 dependencies {
     implementation ("com.github.SultanAyubi360:SeekbarLibrary:1.2")
 }
 ```
-
 ---
+
 ### Step 3
 
 Add the following xml to your layout file.You can use the custom view in following manner:
